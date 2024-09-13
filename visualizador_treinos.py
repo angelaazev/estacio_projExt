@@ -3,6 +3,7 @@ from tkinter import messagebox
 
 class GymTrainingApp:
     def __init__(self, root):
+        
         self.root = root
         self.root.title("Visualizador de Treinos")
         self.trainings = {}
